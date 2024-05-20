@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Home_Screen.dart';
 import 'package:flutter_application_1/main.dart';
 
-void main() => runApp(Registration()); //Entry point of page
+void main() => runApp(const Registration()); //Entry point of page
 
 class Registration extends StatelessWidget {
+  const Registration({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -30,7 +31,7 @@ class _RegistrationPageState extends State<RegistrationPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromRGBO(240, 242, 245, 1),
+      backgroundColor: Color.fromARGB(255, 255, 255, 255),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Center(
