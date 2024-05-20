@@ -61,8 +61,8 @@ class ProductDetailPage extends StatelessWidget {
                           ),
                         );
                       },
-                      icon: const Icon(Icons.add_shopping_cart),
                       label: const Text('Add to Cart'),
+                      icon: const Icon(Icons.add_shopping_cart),
                     ),
                   ],
                 ),
