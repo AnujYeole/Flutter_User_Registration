@@ -12,6 +12,7 @@ class CartScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Cart'),
       ),
+      backgroundColor: const Color.fromRGBO(240, 242, 245, 1),
       body: Consumer<CartProvider>(
         builder: (context, cartProvider, child) {
           return Column(
